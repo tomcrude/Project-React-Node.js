@@ -1,0 +1,33 @@
+body{
+    background: rgb(109, 154, 196);
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.inactive{
+    display: none;
+}
+
+.file{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 100;
+    transform: translate(10px);
+    opacity: 0;
+}
+
+.hidden{
+    visibility: hidden;
+}

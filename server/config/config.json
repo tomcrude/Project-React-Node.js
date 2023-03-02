@@ -1,0 +1,10 @@
+
+{
+  "development": {
+    "username": "postgres",
+    "password": "delfin18",
+    "database": "test",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
